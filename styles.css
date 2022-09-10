@@ -1,6 +1,9 @@
 #cs1300-gallery {
   background-color: lightblue;
-  height: 60vh;
+  height: 100vh;
+  width: 100vw;
+  font-family: "Comic Sans MS";
+  color: rgb(255, 90, 115);
 }
 
 .gallery-item-container {
@@ -14,4 +17,7 @@
 
 .gallery-item {
   height: 90%;
+}
+.gallery-item:hover {
+  box-shadow: 2px 2px 2px 4px teal;
 }
